@@ -47,8 +47,7 @@ def change_time(time, seconds):
     while time.minute < 0:
         time.minute += 60
         time.hour -= 1
-
-    time.hour %= 24
+        
     return None
 
 def valid_time(t):
