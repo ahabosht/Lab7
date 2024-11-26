@@ -48,7 +48,6 @@ def change_time(time, seconds):
         time.minute += 60
         time.hour -= 1
 
-    time.hour %= 24
     return None
 
 def time_to_sec(time):
